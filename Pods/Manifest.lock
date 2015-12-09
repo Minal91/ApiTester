@@ -1,0 +1,10 @@
+PODS:
+  - CommonCrypto (1.1)
+
+DEPENDENCIES:
+  - CommonCrypto
+
+SPEC CHECKSUMS:
+  CommonCrypto: e18c8416332cca5efe80c197f2a522d471c42626
+
+COCOAPODS: 0.37.2

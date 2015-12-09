@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71482493DCE55D5FF373EA29 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5689E18AECD8393A86CFFEC4 /* libPods.a */; };
 		AC50A8C81B552B9400F32EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC50A8C71B552B9400F32EA5 /* AppDelegate.swift */; };
 		AC50A8CA1B552B9400F32EA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC50A8C91B552B9400F32EA5 /* ViewController.swift */; };
 		AC50A8CD1B552B9400F32EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC50A8CB1B552B9400F32EA5 /* Main.storyboard */; };
 		AC50A8CF1B552B9400F32EA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC50A8CE1B552B9400F32EA5 /* Images.xcassets */; };
 		AC50A8D21B552B9400F32EA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC50A8D01B552B9400F32EA5 /* LaunchScreen.xib */; };
 		AC50A8DE1B552B9400F32EA5 /* ApiTesterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC50A8DD1B552B9400F32EA5 /* ApiTesterSwiftTests.swift */; };
+		AC50A8EC1B552DEB00F32EA5 /* NSString+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = AC50A8EB1B552DEB00F32EA5 /* NSString+Encoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18AF7500A53D5416C489E881 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		29A2BD28A8CEAFF91B05FD62 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5689E18AECD8393A86CFFEC4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC50A8C21B552B9400F32EA5 /* ApiTesterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiTesterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC50A8C61B552B9400F32EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC50A8C71B552B9400F32EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		AC50A8D71B552B9400F32EA5 /* ApiTesterSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiTesterSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC50A8DC1B552B9400F32EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC50A8DD1B552B9400F32EA5 /* ApiTesterSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTesterSwiftTests.swift; sourceTree = "<group>"; };
+		AC50A8E91B552DEB00F32EA5 /* ApiTesterSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApiTesterSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC50A8EA1B552DEB00F32EA5 /* NSString+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encoding.h"; sourceTree = "<group>"; };
+		AC50A8EB1B552DEB00F32EA5 /* NSString+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encoding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71482493DCE55D5FF373EA29 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		709CCB638B8794A4AC2B694C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18AF7500A53D5416C489E881 /* Pods.debug.xcconfig */,
+				29A2BD28A8CEAFF91B05FD62 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A51C0DA9984FBD4A45E91F79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5689E18AECD8393A86CFFEC4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC50A8B91B552B9400F32EA5 = {
 			isa = PBXGroup;
 			children = (
+				AC50A8EA1B552DEB00F32EA5 /* NSString+Encoding.h */,
+				AC50A8EB1B552DEB00F32EA5 /* NSString+Encoding.m */,
 				AC50A8C41B552B9400F32EA5 /* ApiTesterSwift */,
 				AC50A8DA1B552B9400F32EA5 /* ApiTesterSwiftTests */,
 				AC50A8C31B552B9400F32EA5 /* Products */,
+				709CCB638B8794A4AC2B694C /* Pods */,
+				A51C0DA9984FBD4A45E91F79 /* Frameworks */,
+				AC50A8E91B552DEB00F32EA5 /* ApiTesterSwift-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC50A8E11B552B9400F32EA5 /* Build configuration list for PBXNativeTarget "ApiTesterSwift" */;
 			buildPhases = (
+				E4CB5DAEA30370C80B976F05 /* Check Pods Manifest.lock */,
 				AC50A8BE1B552B9400F32EA5 /* Sources */,
 				AC50A8BF1B552B9400F32EA5 /* Frameworks */,
 				AC50A8C01B552B9400F32EA5 /* Resources */,
+				27249620E216AEDF92DEC2DB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +189,8 @@
 		AC50A8BA1B552B9400F32EA5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = punchh;
 				TargetAttributes = {
@@ -207,11 +242,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27249620E216AEDF92DEC2DB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CB5DAEA30370C80B976F05 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC50A8BE1B552B9400F32EA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC50A8EC1B552DEB00F32EA5 /* NSString+Encoding.m in Sources */,
 				AC50A8CA1B552B9400F32EA5 /* ViewController.swift in Sources */,
 				AC50A8C81B552B9400F32EA5 /* AppDelegate.swift in Sources */,
 			);
@@ -340,21 +409,30 @@
 		};
 		AC50A8E21B552B9400F32EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AF7500A53D5416C489E881 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ApiTesterSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ApiTesterSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AC50A8E31B552B9400F32EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A2BD28A8CEAFF91B05FD62 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ApiTesterSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ApiTesterSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +489,7 @@
 				AC50A8E31B552B9400F32EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC50A8E41B552B9400F32EA5 /* Build configuration list for PBXNativeTarget "ApiTesterSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +498,7 @@
 				AC50A8E61B552B9400F32EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
